@@ -1,0 +1,36 @@
+LEXICON Pronoun 
+
+Personal ;
+Demonstrative ;
+Reflexive ;
+
+LEXICON Personal
+I+Pron:I # ;
+you+Pron:you # ;
+we+Pron+Nom:we # ;
+us+Pron+Acc:us # ;
+they+Pron+Nom:they # ;
+they+Pron+Acc:them # ;
+it+Pron:it # ;
+he+Pron:he # ;
+she+Pron:she # ;
+
+
+LEXICON Demonstrative
+this+Pron+Dem:this # ;
+that+Pron+Dem:that # ;
+
+LEXICON Determiner
+the+Det:the # ;
+
+LEXICON Reflexive
+myself refl ;
+yourself refl ;
+himself refl ;
+herself refl ;
+itself refl ;
+ourselves refl ;
+themselves refl ;
+
+LEXICON refl
++Pron+Refl # ;

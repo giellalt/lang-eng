@@ -1,0 +1,6 @@
+LECIXON CC ;
++CC: #;
+
+LEXICON conjunction ;
+and CC ;
+or CC ;

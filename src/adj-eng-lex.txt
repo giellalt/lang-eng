@@ -1,0 +1,15 @@
+LEXICON adjlong
++A: # ;
+
+LEXICON adjshort
++A: # ;
++A+Comp:%>er # ;
++A+Superl:%>est # ;
+
+
+LEXICON Adjective
+interesting adjlong ;
+short adjshort ;
+fine adjshort ;
+funky adjshort ;
+indigenous adjlong ;

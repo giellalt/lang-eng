@@ -1,0 +1,4 @@
+LEXICON Noun 
+boat ns ;
+philosophy ns ;
+

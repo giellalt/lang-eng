@@ -1,0 +1,80 @@
+! The Udmurt postposition
+! Some of them are indeclinable, others are decline in a various number of 
+! local cases.
+
+LEXICON PP ! These are the indeclieable ones 
++P: #;
+
+LEXICON Preposition
+aboard  PP ;
+about  PP ;
+above  PP ;
+across  PP ;
+after  PP ;
+against  PP ;
+along  PP ;
+amid  PP ;
+among  PP ;
+anti  PP ;
+around  PP ;
+as  PP ;
+at  PP ;
+before  PP ;
+behind  PP ;
+below  PP ;
+beneath  PP ;
+beside  PP ;
+besides  PP ;
+between  PP ;
+beyond  PP ;
+but  PP ;
+by  PP ;
+concerning  PP ;
+considering  PP ;
+despite  PP ;
+down  PP ;
+during  PP ;
+except  PP ;
+excepting  PP ;
+excluding  PP ;
+following  PP ;
+for  PP ;
+from  PP ;
+  PP ;
+  in  PP ;
+inside  PP ;
+into  PP ;
+like  PP ;
+minus  PP ;
+near  PP ;
+of  PP ;
+off  PP ;
+on  PP ;
+onto  PP ;
+opposite  PP ;
+outside  PP ;
+over  PP ;
+past  PP ;
+per  PP ;
+plus  PP ;
+regarding  PP ;
+round  PP ;
+save  PP ;
+since  PP ;
+than  PP ;
+through  PP ;
+to  PP ;
+toward  PP ;
+towards  PP ;
+under  PP ;
+underneath  PP ;
+unlike  PP ;
+until  PP ;
+up  PP ;
+upon  PP ;
+versus  PP ;
+via  PP ;
+with  PP ;
+within  PP ;
+without   PP ;
+

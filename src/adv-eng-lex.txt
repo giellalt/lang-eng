@@ -1,0 +1,5 @@
+LEXICON Adverb 
+often adv ;
+
+LEXICON adv
++Adv: # ;

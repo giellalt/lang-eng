@@ -1,0 +1,6 @@
+LEXICON vs 
++V+Inf: # ;
++V+Prs: # ;
++V+Prs+Sg3:%>s # ;
++V+Prt:%>d # ;
++V+Prog:%>ing # ;
