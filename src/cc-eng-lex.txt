@@ -4,3 +4,7 @@ LECIXON CC ;
 LEXICON conjunction ;
 and CC ;
 or CC ;
+but CC ;
+so CC ;
+yet CC ;
+for CC ;
