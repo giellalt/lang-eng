@@ -17,6 +17,7 @@ Multichar_Symbols
 ! Other MSP
 +P +Det +Dem
 
++CLB +PUNCT +LEFT +RIGHT
 ! Key lexicon
 
 LEXICON Root
