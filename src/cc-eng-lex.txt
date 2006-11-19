@@ -1,10 +1,10 @@
-LECIXON CC ;
-+CC: #;
+LEXICON cc 
++CC: # ;
 
-LEXICON conjunction ;
-and CC ;
-or CC ;
-but CC ;
-so CC ;
-yet CC ;
-for CC ;
+LEXICON Conjunction
+and cc ;
+or cc ;
+but cc ;
+so cc ;
+yet cc ;
+for cc ;

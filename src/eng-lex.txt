@@ -16,6 +16,7 @@ Multichar_Symbols
 
 ! Other MSP
 +P +Det +Dem
++Nom +Acc +Poss
 
 +CLB +PUNCT +LEFT +RIGHT
 ! Key lexicon

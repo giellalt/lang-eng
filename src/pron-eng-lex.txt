@@ -5,15 +5,26 @@ Demonstrative ;
 Reflexive ;
 
 LEXICON Personal
-I+Pron:I # ;
+I+Pron+Nom:I # ;
+I+Pron+Acc:me # ;
+I+Pron+Poss:my # ;
 you+Pron:you # ;
+you+Pron+Poss:your # ;
 we+Pron+Nom:we # ;
-us+Pron+Acc:us # ;
+we+Pron+Acc:us # ;
+we+Pron+Poss:our # ;
 they+Pron+Nom:they # ;
 they+Pron+Acc:them # ;
+they+Pron+Poss:their # ;
 it+Pron:it # ;
-he+Pron:he # ;
-she+Pron:she # ;
+it+Pron+Poss:its # ;
+he+Pron+Nom:he # ;
+he+Pron+Acc:him # ;
+he+Pron+Poss:his # ;
+she+Pron+Nom:she # ;
+she+Pron+Acc:her # ;
+she+Pron+Poss:her # ;
+
 
 
 LEXICON Demonstrative
@@ -21,6 +32,7 @@ this+Pron+Dem:this # ;
 that+Pron+Dem:that # ;
 
 LEXICON Determiner
+a+Det:a # ;
 the+Det:the # ;
 
 LEXICON Reflexive

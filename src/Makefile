@@ -90,7 +90,8 @@ eng-lex.save: ../bin/eng-lex.save
 	@echo
 	printf "compile-source eng-lex.txt noun-eng-morph.txt noun-eng-lex.txt \
 	adj-eng-lex.txt verb-eng-lex.txt verb-eng-morph.txt pron-eng-lex.txt \
-	adv-eng-lex.txt pp-eng-lex.txt punct-eng-lex.txt \n\
+	cc-eng-lex.txt cs-eng-lex.txt \
+	adv-eng-lex.txt pp-eng-lex.txt interj-eng-lex.txt punct-eng-lex.txt \n\
 	save-source ../bin/eng-lex.save \n\
 	quit \n" > ../../tmp/eng-lex-save-script
 	@lexc < ../../tmp/eng-lex-save-script
