@@ -1,5 +1,8 @@
+! =========================================== !
+! привет! This is the English morphophonology !
+! =========================================== !
 
-!  This file is a script for the Xerox xfst interface.
+! The file is intended for demo purposes.
 
 
 clear stack
