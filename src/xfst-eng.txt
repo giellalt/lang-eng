@@ -16,7 +16,7 @@ define Vow [ a | e | i | o | y
 
 echo << defining Cns >>
 define Cns [ b | c | d | e | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | z ];
-define SibCluster [ s([s|h])|z([z|h])|c h] ;
+define SibCluster [ s ([s|h])|z ([z|h])|c h] ;
 define Syll [ (s) (Cns) (Cns) Vow (Cns) (Cns) ] ; 
 
 
