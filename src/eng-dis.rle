@@ -72,11 +72,12 @@ CONSTRAINTS
 REMOVE V IF (-1 Det)(0 N);
 
 REMOVE N IF (-1 ("to"))(0 (V Inf)) ;
+
 REMOVE Prs IF (-1 ("to"))(0 (V Inf)) ;
 
 REMOVE Inf IF (-1 ("they") OR ("we") OR ("you"))(0 (V Prs)) ;
 
 REMOVE N IF (-1 ("they") OR ("we") OR ("you"))(0 (V Prs)) ;
-
+REMOVE (N Pl) IF (-1 ("he") OR ("she"))(0 (V Sg3));
 REMOVE (V Prs Sg3) IF (-1 (V Prog))(0 (N Pl));
 
