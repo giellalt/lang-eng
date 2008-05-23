@@ -5,6 +5,19 @@
 # This is a preliminary file that builds an English parser based upon
 # xfst and not twolc.
 
+
+XFST = xfst -utf8
+LEXC = lexc -utf8
+TWOLC = twolc -utf8
+
+ifeq (victorio.uit.no, $(shell hostname))
+XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
+LEXC = /opt/sami/xerox/bin/lexc -utf8
+TWOLC = /opt/sami/xerox/bin/twolc -utf8
+endif
+
+
+
 # Here we build the final generator , an inverted transducer of the analyzer.
 # It is dependent upon eng.save
 
@@ -17,7 +30,7 @@ ieng.fst: ../bin/ieng.fst
 	invert net \n\
 	save stack ../bin/ieng.fst \n\
 	quit \n" > ../../tmp/ieng-fst-script
-	@xfst < ../../tmp/ieng-fst-script
+	$(XFST) < ../../tmp/ieng-fst-script
 	@rm -f ../../tmp/ieng-fst-script
 
 
@@ -32,7 +45,7 @@ eng.fst: ../bin/eng.fst
 	[@\"../bin/caseconv.fst\"]] ; \n\
 	save stack ../bin/eng.fst \n\
 	quit \n" > ../../tmp/eng-fst-script
-	@xfst < ../../tmp/eng-fst-script
+	$(XFST) < ../../tmp/eng-fst-script
 	@rm -f ../../tmp/eng-fst-script
 
 
@@ -47,7 +60,7 @@ caseconv.fst: ../bin/caseconv.fst
 	@printf "read regex < case.regex \n\
 	save stack ../bin/caseconv.fst \n\
 	quit \n" > ../../tmp/caseconv-script
-	@xfst < ../../tmp/caseconv-script
+	$(XFST) < ../../tmp/caseconv-script
 	@rm -f ../../tmp/caseconv-script
 
 
@@ -61,7 +74,7 @@ tok.fst: ../bin/tok.fst
 	@printf "source tok.txt \n\
 	save stack ../bin/tok.fst \n\
 	quit \n" > ../../tmp/tok-script
-	@xfst < ../../tmp/tok-script
+	$(XFST) < ../../tmp/tok-script
 	@rm -f ../../tmp/tok-script
 
 
@@ -74,7 +87,7 @@ eng.save: ../bin/eng.save
 	[@\"../bin/xfst-eng.bin\"]] ; \n\
 	save stack ../bin/eng.save \n\
 	quit \n" > ../../tmp/eng-save-script
-	@xfst < ../../tmp/eng-save-script
+	$(XFST) < ../../tmp/eng-save-script
 	@rm -f ../../tmp/eng-save-script
 
 # The first goal is to build eng-lex.save
@@ -94,7 +107,7 @@ eng-lex.save: ../bin/eng-lex.save
 	adv-eng-lex.txt pp-eng-lex.txt interj-eng-lex.txt punct-eng-lex.txt \n\
 	save-source ../bin/eng-lex.save \n\
 	quit \n" > ../../tmp/eng-lex-save-script
-	@lexc < ../../tmp/eng-lex-save-script
+	$(LEXC) < ../../tmp/eng-lex-save-script
 	rm -f ../../tmp/eng-lex-save-script
 
 # The second goal is to build xfst-eng.bin
@@ -108,7 +121,7 @@ xfst-eng.bin: ../bin/xfst-eng.bin
 	@printf "source xfst-eng.txt \n\
 	save stack ../bin/xfst-eng.bin \n\
 	quit \n" > ../../tmp/xfst-eng-script
-	@xfst < ../../tmp/xfst-eng-script
+	$(XFST) < ../../tmp/xfst-eng-script
 	@rm -f ../../tmp/xfst-eng-script
 
 clean:
