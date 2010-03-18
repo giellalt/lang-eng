@@ -37,31 +37,31 @@ ieng.fst: ../bin/ieng.fst
 # This goal is to build the final analyser. It depends on all the files.
 
 eng.fst: ../bin/eng.fst
-../bin/eng.fst: ../bin/eng.save ../bin/caseconv.fst ../bin/tok.fst 
+../bin/eng.fst: ../bin/eng.save ../bin/inituppercase.fst ../bin/tok.fst 
 	@echo
 	@echo "*** Building eng.fst ***" ;
 	@echo
 	@printf "read regex [[@\"../bin/eng.save\"] .o. \
-	[@\"../bin/caseconv.fst\"]] ; \n\
+	[@\"../bin/inituppercase.fst\"]] ; \n\
 	save stack ../bin/eng.fst \n\
 	quit \n" > ../../tmp/eng-fst-script
 	$(XFST) < ../../tmp/eng-fst-script
 	@rm -f ../../tmp/eng-fst-script
 
 
-# The second goal is to build the caseconv.fst file
+# The second goal is to build the inituppercase.fst file
 # This goal depends on case.regex
 
-caseconv.fst: ../bin/caseconv.fst
-../bin/caseconv.fst: case.regex
+inituppercase.fst: ../bin/inituppercase.fst
+../bin/inituppercase.fst: inituppercase.regex
 	@echo
-	@echo "*** Building caseconv.fst ***" ;
+	@echo "*** Building inituppercase.fst ***" ;
 	@echo
-	@printf "read regex < case.regex \n\
-	save stack ../bin/caseconv.fst \n\
-	quit \n" > ../../tmp/caseconv-script
-	$(XFST) < ../../tmp/caseconv-script
-	@rm -f ../../tmp/caseconv-script
+	@printf "read regex < inituppercase.regex \n\
+	save stack ../bin/inituppercase.fst \n\
+	quit \n" > ../../tmp/inituppercase-script
+	$(XFST) < ../../tmp/inituppercase-script
+	@rm -f ../../tmp/inituppercase-script
 
 
 # Another goal is to build a preprocessor.This goal depends on tok.txt
