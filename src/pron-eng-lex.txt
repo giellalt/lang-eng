@@ -33,6 +33,7 @@ that+Pron+Dem:that # ;
 
 LEXICON Determiner
 a+Det:a # ;
+a+Det:an # ;
 the+Det:the # ;
 
 LEXICON Reflexive
