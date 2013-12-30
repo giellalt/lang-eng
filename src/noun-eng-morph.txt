@@ -1,3 +1,0 @@
-LEXICON ns
-+N+Sg: # ;
-+N+Pl:%>es # ;
