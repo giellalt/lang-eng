@@ -1,11 +1,74 @@
 !! Adjective inflection
 !! --------------------
-!! The UNDEFINED language adjectives compare.
+!! The English language adjectives compare.
 
 LEXICON Comparisons
 +A+pos:0        Cases   ;
 +A+cmp:er       Cases   ;
 +A+sup:est      Cases   ;
+
+LEXICON A-case_expensive__adj
++A: # ; !FIXME
+LEXICON A_/bad__adj
++A: # ; !FIXME
+LEXICON A_/good__adj
++A: # ; !FIXME
+LEXICON A_broad/__adj
++A: # ; !FIXME
+LEXICON A_f/ar__adj
++A: # ; !FIXME
+LEXICON A_fun/__adj
++A: # ; !FIXME
+LEXICON A_handsome/__adj
++A: # ; !FIXME
+
+LEXICON A_happ/y__adj
++A+Pos: # ; !FIXME
++A+Comp:%^Y2I%>er # ;
++A+Superl:%^Y2I%>est # ;
+
+
+LEXICON A_big/__adj
+!A_flat/__adj
+!A_dim/__adj
+!A_drab/__adj
+!A_glad/__adj
+!A_hot/__adj
+!A_thin/__adj
++A+Pos: # ; !FIXME
++A+Comp:%^C2CC%>er # ; 
++A+Superl:%^C2CC%>est # ; 
+
+LEXICON A_long/__adj
++A+Pos: # ; 
++A+Comp:%>er # ;
++A+Superl:%>est # ;
+LEXICON A_lovel/y__adj
++A+Pos: # ; !FIXME
++A+Comp:%^Y2I%>er # ;
++A+Superl:%^Y2I%>est # ;
+
+LEXICON A_mine__adj
++A: # ; !FIXME
+LEXICON A_nice/__adj
++A: # ; !FIXME
+LEXICON A_sh/y__adj
++A: # ; !FIXME
+LEXICON A_sly/__adj
++A: # ; !FIXME
+
+LEXICON A_common/__adj
++A: # ; !FIXME take independent comparison and dependent
++A+Pos: # ;
++A+Comp:%>r # ;
++A+Superl:%>st # ;
+
+LEXICON A_expensive__adj
++A: # ; !FIXME take independent	comparison alone
+LEXICON	A_nice__adj
++A+Pos: # ;
++A+Comp:%>r # ;
++A+Superl:%>st # ;
 
 ! vim: set ft=xfst-lexc:
 
