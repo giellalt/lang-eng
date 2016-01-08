@@ -103,7 +103,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  {aä} {oö} {uü}
 
 !! And following triggers to control variation
- {front} {back}
+%^C2CC 		 !!= * @CODE@ used with adjectives and verbs to double consonant
+%^Y2I		 !!= * @CODE@ y:i in adjectives and nouns
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -142,5 +143,8 @@ LEXICON Root
 0   Pronouns    ;
 0   Numerals    ;
 0   Prefixes    ;
+
+LEXICON K !!= * @CODE@ There should be nothing ending here
+#;
 
 ! vim: set ft=xfst-lexc:
