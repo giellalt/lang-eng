@@ -27,8 +27,8 @@ Rules
  y:i <=>
   _ %^Y2I: ;
 !! city+N+Pl
-!€ city%^Y2I%>es
-!€ citi0%>es
+!!€ city%^Y2I%>es
+!!€ citi0%>es
 
 "Double consonant"
  0:Cx <=>
@@ -36,17 +36,17 @@ Rules
  where Cx in (b d f g l m n p r t B D F G L M N P R T) ; 
 
 !! big+A+Comp
-!€ big0%^C2CC%>er
-!€ bigg0%>er
+!!€ big0%^C2CC%>er
+!!€ bigg0%>er
 
 "Deleting stem-final s in s genitive"
  s:0 <=> Vow s %>: _ ;
 
-!€ primus%>s
-!€ primus00
+!!€ primus%>s
+!!€ primus00
 
-!€grís%>s
-!€grís00
+!!€grís%>s
+!!€grís00
 
-!$grís%>s
-!$grís0s
+!!$grís%>s
+!!$grís0s
