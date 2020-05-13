@@ -1,0 +1,35 @@
+[package]
+name = "eng"
+human_name = "English"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.eng]
+filename = "en-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-eng"
+platform = "windows"
+uuid = "A91E54BF-5601-4F72-983B-6DF768069564"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.en"
+package = "speller-eng"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-eng-mso"
+platform = "windows"
+uuid = "D9BC1B80-8D9A-49B4-9D7C-FEF527A0A904"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-eng"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
