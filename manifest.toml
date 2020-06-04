@@ -1,0 +1,9 @@
+name = "English"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.en"
+
+[windows]
+system_product_code = "A91E54BF-5601-4F72-983B-6DF768069564"
+msoffice_product_code = "D9BC1B80-8D9A-49B4-9D7C-FEF527A0A904"
