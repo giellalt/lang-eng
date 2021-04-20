@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/issues)
- [![Build Status](https://github.com/giellalt/lang-eng/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-eng/actions)
+[![Build Status](https://github.com/giellalt/lang-eng/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-eng/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-eng)](https://raw.githubusercontent.com/giellalt/lang-eng/develop/LICENSE)
 
 The English analyser was made just for testing, it is not a functional
 analyser.
