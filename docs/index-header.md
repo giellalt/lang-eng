@@ -1,7 +1,7 @@
 # English documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-eng)](https://raw.githubusercontent.com/giellalt/lang-eng/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-eng)](https://raw.githubusercontent.com/giellalt/lang-eng/develop/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/issues)
 [![Build status](https://github.com/giellalt/lang-eng/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-eng/actions)
 
