@@ -1,3 +1,74 @@
+Noun inflection
+The English language nouns inflect in cases.
+
+
+
+Proper noun inflection
+The English language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adjective inflection
+The English language adjectives compare.
+
+
+
+
+
+
+
+
+
+
+
+Verb inflection
+The English language verbs inflect in persons.
+
+
+
+=================================== !
+The English morphophonological/twolc rules file !
+=================================== !
+
+
+
+ * %^C2CC:0 	  used with adjectives and verbs to double consonant
+ * %^Y2I:0		  y:i in adjectives and nouns
+
+
+
+
+
+city+N+Pl
+* *city%^Y2I%>es*
+* *citi0%>es*
+
+
+big+A+Comp
+* *big0%^C2CC%>er*
+* *bigg0%>er*
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
 
 # English morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF English LANGUAGE.
@@ -81,6 +152,89 @@ The word forms in English language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
  * LEXICON K  There should be nothing ending here
+
+Nouns
+Nouns in the English language are things.
+
+
+Prefixes
+Prefixes in the English language are bound to beginning of other words.
+
+
+
+Pronouns
+Pronouns in the English language are references to things.
+
+
+Adjectives
+Adjectives in the English language describe things.
+
+
+From Apertium
+
+
+
+Verbs
+Verbs in the English language are actions.
+
+
+Numerals
+Numerals in the English language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 
