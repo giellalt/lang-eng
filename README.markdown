@@ -3,13 +3,13 @@ The English morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/issues)
 [![Build Status](https://github.com/giellalt/lang-eng/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-eng/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-eng)](https://raw.githubusercontent.com/giellalt/lang-eng/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-eng)](https://raw.githubusercontent.com/giellalt/lang-eng/main/LICENSE)
 
 This repository contains finite state source files for the English language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
 licence, also detailed in the
-[LICENCE](https://github.com/giellalt/lang-eng/blob/develop/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-eng/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
@@ -80,7 +80,7 @@ svn checkout https://github.com/giellalt/lang-eng.git/trunk lang-eng
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-eng/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-eng/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
