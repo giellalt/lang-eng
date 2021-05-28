@@ -605,33 +605,40 @@ These were the set types.
 
 
 
-Nouns
-Nouns in the English language are things.
-
-
-Numerals
-Numerals in the English language are numbers.
-
-
-Verbs
-Verbs in the English language are actions.
-
-
-Prefixes
-Prefixes in the English language are bound to beginning of other words.
+Verb inflection
+The English language verbs inflect in persons.
 
 
 
-Adjectives
-Adjectives in the English language describe things.
-
-
-From Apertium
+Proper noun inflection
+The English language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
 
 
-Pronouns
-Pronouns in the English language are references to things.
+Adjective inflection
+The English language adjectives compare.
+
+
+
+
+
+
+
+
+
+
+
+Noun inflection
+The English language nouns inflect in cases.
+
+
+
+
+# Symbol affixes
+
+
+
 
 
 =================================== !
@@ -669,40 +676,33 @@ big+A+Comp
 * examples:*
 
 * examples:*
-
-# Symbol affixes
-
-
+Verbs
+Verbs in the English language are actions.
 
 
-
-Noun inflection
-The English language nouns inflect in cases.
-
+Pronouns
+Pronouns in the English language are references to things.
 
 
-Proper noun inflection
-The English language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+Numerals
+Numerals in the English language are numbers.
 
 
+Adjectives
+Adjectives in the English language describe things.
 
-Verb inflection
-The English language verbs inflect in persons.
+
+From Apertium
 
 
 
-Adjective inflection
-The English language adjectives compare.
+Prefixes
+Prefixes in the English language are bound to beginning of other words.
 
 
 
-
-
-
-
-
-
+Nouns
+Nouns in the English language are things.
 
 
 
@@ -792,22 +792,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in English are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -858,6 +842,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in English are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
