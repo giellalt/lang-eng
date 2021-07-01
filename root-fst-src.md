@@ -82,3 +82,5 @@ word classes, or optionally from prefixes:
 
  * LEXICON K  There should be nothing ending here
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/root.lexc)</small>
