@@ -3,7 +3,7 @@ The English morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/issues)
 [![Build Status](https://github.com/giellalt/lang-eng/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-eng/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-eng)](https://raw.githubusercontent.com/giellalt/lang-eng/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/blob/main/LICENSE)
 
 This repository contains finite state source files for the English language,
 for building morphological analysers, proofing tools
