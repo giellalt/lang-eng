@@ -4,8 +4,8 @@ The English morphophonological/twolc rules file !
 
 
 
- * %^C2CC:0 	  used with adjectives and verbs to double consonant
- * %^Y2I:0		  y:i in adjectives and nouns
+* %^C2CC:0 	  used with adjectives and verbs to double consonant
+* %^Y2I:0		  y:i in adjectives and nouns
 
 
 
