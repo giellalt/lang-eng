@@ -606,7 +606,43 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-eng/blob/main/../src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-eng/blob/main/../src/cg3/functions.cg3)</small>=================================== !
+The English morphophonological/twolc rules file !
+=================================== !
+
+
+
+* %^C2CC:0 	  used with adjectives and verbs to double consonant
+* %^Y2I:0		  y:i in adjectives and nouns
+
+
+
+
+
+city+N+Pl
+* *city%^Y2I%>es*
+* *citi0%>es*
+
+
+big+A+Comp
+* *big0%^C2CC%>er*
+* *bigg0%>er*
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/phonology.twolc)</small>
 # English morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF English LANGUAGE.
 
@@ -699,13 +735,20 @@ word classes, or optionally from prefixes:
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/symbols.lexc)</small>Noun inflection
-The English language nouns inflect in cases.
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/symbols.lexc)</small>Proper noun inflection
+The English language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjective inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/propernouns.lexc)</small>Verb inflection
+The English language verbs inflect in persons.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
 The English language adjectives compare.
 
 
@@ -719,67 +762,18 @@ The English language adjectives compare.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
-The English language verbs inflect in persons.
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/adjectives.lexc)</small>Noun inflection
+The English language nouns inflect in cases.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/verbs.lexc)</small>Proper noun inflection
-The English language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/propernouns.lexc)</small>=================================== !
-The English morphophonological/twolc rules file !
-=================================== !
-
-
-
-* %^C2CC:0 	  used with adjectives and verbs to double consonant
-* %^Y2I:0		  y:i in adjectives and nouns
-
-
-
-
-
-city+N+Pl
-* *city%^Y2I%>es*
-* *citi0%>es*
-
-
-big+A+Comp
-* *big0%^C2CC%>er*
-* *bigg0%>er*
-
-
-* *primus%>s*
-* *primus00*
-
-
-* examples:*
-
-* examples:*
-
-
-* examples:*
-
-* examples:*
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/phonology.twolc)</small>Prefixes
-Prefixes in the English language are bound to beginning of other words.
-
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/affixes/nouns.lexc)</small>Verbs
+Verbs in the English language are actions.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/prefixes.lexc)</small>Nouns
-Nouns in the English language are things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
 Adjectives in the English language describe things.
 
 
@@ -788,22 +782,28 @@ From Apertium
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
-Pronouns in the English language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
-Verbs in the English language are actions.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
 Numerals in the English language are numbers.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/numerals.lexc)</small>Nouns
+Nouns in the English language are things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/nouns.lexc)</small>Pronouns
+Pronouns in the English language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/pronouns.lexc)</small>Prefixes
+Prefixes in the English language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-eng/blob/main/../src/fst/stems/prefixes.lexc)</small>
 
 
 We describe here how abbreviations are in English are read out, e.g.
