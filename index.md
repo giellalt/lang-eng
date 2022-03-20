@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/issues)
-[![Build status](https://github.com/giellalt/lang-eng/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-eng/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-eng/main/badge.svg)](https://github.com/giellalt/lang-eng/actions)
 
 This page documents the work on the **English language model**. 
 
