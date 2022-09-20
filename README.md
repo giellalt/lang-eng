@@ -4,6 +4,8 @@ The English morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-eng/main/badge.svg)](https://github.com/giellalt/lang-eng/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-eng?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-eng?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the English language,
 for building morphological analysers, proofing tools
