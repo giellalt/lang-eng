@@ -1,6 +1,7 @@
 The English morphology and tools
 ==========================================
 
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-eng%2Fgh-pages%2Flemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-eng/main/badge.svg)](https://github.com/giellalt/lang-eng/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/blob/main/LICENSE)
