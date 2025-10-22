@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-eng)](https://github.com/giellalt/lang-eng/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-eng?label=CI)](https://builds.giellalt.org/pipelines/lang-eng/builds/latest)
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the **English language model**. 
 
